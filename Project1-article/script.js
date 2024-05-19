@@ -1,13 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const currentTimeElement = document.getElementById('current-time');
+document.addEventListener("DOMContentLoaded", function() {
+  const btnShowMore = document.getElementById('btn-show-more');
+  const hiddenArticles = document.querySelectorAll('.article-card.hidden');
 
-    const updateCurrentTime = () => {
-      const now = new Date();
-      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
-      const timeString = now.toLocaleDateString('en-US', options);
-      currentTimeElement.textContent = timeString;
-    };
-
-    updateCurrentTime();
-    setInterval(updateCurrentTime, 1000); 
+  btnShowMore.addEventListener('click', function() {
+    hiddenArticles.forEach(article => {
+      article.classList.remove('hidden');
+    });
+    btnShowMore.style.display = 'none'; // Optionally hide the button after all articles are shown
+  });
 });

@@ -41,7 +41,7 @@ optionImages.forEach((image, index) => {
             };
 
             const outcomeValue = outcomes[userValue + cpuValue];
-            result.textContent = userValue === cpuValue ? "Oke, kali ini Seri." : `${outcomeValue} Menang!! Hahaha`;
+            result.textContent = userValue === cpuValue ? "Oke, kali ini Seri." : `${outcomeValue} Menang!! Yeaayy`;
         }, 2500);
     });
 });
