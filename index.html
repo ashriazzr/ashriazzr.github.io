@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaq.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+            rel="icon"
+            href=
+"./assets/arrow.png"
+            type="image/x-icon"
+        />
   </head>
+  
   <body>
     <nav id="desktop-nav">
       <div class="logo">Ashri Aulia Azzahra</div>
@@ -17,6 +24,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="Project1-article/index.html">Sneak Peek</a></li>
         </ul>
       </div>
     </nav>
@@ -33,12 +41,14 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#sneakpeek" onclick="toggleMenu()">Sneack Peek</a></li>
+          
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.gif" alt="John Doe profile picture" />
+        <img src="./assets/about-pic.png" alt="Ashri profile picture" class="about-pic" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, It's Me,</p>
@@ -77,9 +87,9 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/profile-pic.gif"
             alt="Profile picture"
-            class="about-pic"
+            class="profile-pic"
           />
         </div>
         <div class="about-details-container">
@@ -92,7 +102,7 @@
               />
               
               <h3>Experience</h3>
-              <div style="width: 140px;">
+              <div>
               <p  style="font-size: 12px;">2+ years Programming</p>
         
               <p style="font-size: 12px;">1+ years Data Entry</p>
@@ -313,7 +323,7 @@ learning and developing in the world of technology.
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/Bogu.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -326,7 +336,7 @@ learning and developing in the world of technology.
               >
                 Open
               </button>
-              <button style="display:hidden;"
+              <button 
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
@@ -361,7 +371,7 @@ learning and developing in the world of technology.
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/project-2.png"
                 alt="Project 3"
                 class="project-img"
               />
@@ -408,11 +418,19 @@ learning and developing in the world of technology.
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
+            src="./assets/instagram.jpeg"
+            alt="Instagram icon"
             class="icon contact-icon"
           />
           <p><a href="https://www.instagram.com/bulbpeppa_sk/">Instagram</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp.jpeg"
+            alt="WhatsApp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/085176770503?text=Hallo">WhatsApp</a></p>
         </div>
       </div>
     </section>
