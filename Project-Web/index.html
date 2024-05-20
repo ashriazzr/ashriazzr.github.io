@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Project</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="../mediaqueries.css">
-  <link rel="icon" href="../assets/arrow.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+    <link
+            rel="icon"
+            href=
+"./assets/arrow.png"
+            type="image/x-icon"
+        />
 </head>
 <body>
-  <nav>
-    <div class="logo"><a href="../index.html"><b><b></b>Ashri Aulia Azzahra</b></b></a></div>
+  <nav id="desktop-nav">
+    <div class="logo"><b><b>Ashri Aulia Azzahra</b></b></div>
+    
     <div>
-      <div id="current-time"></div>
+      <ul class="nav-links">
+        <li><a href="../index.html">HomePage</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../Project1-article/index.html">Blog</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul><br/>
+      <div id="current-time" class="time"></div>
+    </div>
+    <div id="current-time"></div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ashri Aulia Azzahra</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="../index.html" onclick="toggleMenu()">HomePage</a></li>
+        <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="../Project1-article/index.html" onclick="toggleMenu()">Blog</a></li>
+        <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
+       
+        
+      </div>
     </div>
   </nav>
   <section id="project-web-rps">
