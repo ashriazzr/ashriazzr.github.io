@@ -44,7 +44,6 @@ a:hover {
 .logo {
   font-size: 1rem;
   background-color: #79021c;
- 
   padding: 10px;
   border-radius: 15px;
 font-family: "Poppins", sans-serif;
@@ -141,7 +140,7 @@ header {
 }
 
 .header-nav a:hover {
-  color: #E1AFD1;
+ 
 }
 
 @media only screen and (max-width: 768px) {
