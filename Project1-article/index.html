@@ -4,28 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sneak Peek</title>
+  <title>Ashri's Blog</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mediaqueries.css">
   <link rel="icon" href="../assets/arrow.png" type="image/x-icon">
 </head>
 <body>
   <nav id="desktop-nav">
-    <div class="logo"><b><b>Ashri Aulia Azzahra</b></b></div>
-    
+    <div class="logo"><b><a href="../index.html">Ashri Aulia Azzahra</a></b></div>
     <div>
       <ul class="nav-links">
-        <li><a href="../index.html">HomePage</a></li>
         <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../../Project-Web/index.html">Projects</a></li>
+        <li><a href="">Blog</a></li>
         <li><a href="../index.html#contact">Contact</a></li>
-      </ul><br/>
-      <div id="current-time" class="time"></div>
+      </ul>
+      <br />
+      <div id="current-time" ></div>
     </div>
-    <div id="current-time"></div>
   </nav>
   <nav id="hamburger-nav">
-    <div class="logo">Ashri Aulia Azzahra</div>
+    <div class="logo"><a href="../index.html">Ashri Aulia Azzahra</a></div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
         <span></span>
@@ -33,34 +32,34 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="../index.html" onclick="toggleMenu()">HomePage</a></li>
-        <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="../index.html#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
+         <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="../../Project-Web/index.html" onclick="toggleMenu()">Project</a></li>
+          <li><a href="" onclick="toggleMenu()">Blog</a></li>
+          <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
        
         
       </div>
     </div>
   </nav>
- 
+  <h3 class="title">My Blog</h3>
   <section id="projects">
     <div class="articles-container">
       <article class="article-card">
         <!-- <img src="../assets/article1.jpg" alt="Article 1 Image"> -->
         <h2 class="article-title">5 Tools keren buat Desain Grafis</h2>
         <p class="article-snippet">Pernah ga sih, kalian nemuin suatu web yang kalian bingung ini tuh konsep nya kaya gimana, klik tombol backnya dimana?,...</p>
-        <button class="btn btn-read-more" onclick="location.href=href='article-1/index.html'">Read More</button>
+        <button class="btn btn-read-more" onclick="location.href='article-1/index.html'">Baca</button>
       </article>
       <article class="article-card">
-        <img src="../assets/article2.jpg" alt="Article 2 Image">
-        <h2 class="article-title">AI berita buruk bagi programmer <p>&#128549;</p></h2>
-        <p class="article-snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo explicabo sint, hic error quas nostrum asperior.</p>
-        <button class="btn btn-read-more"  onclick="">Read More</button>
+        <!-- <img src="../assets/article2.jpg" alt="Article 2 Image"> -->
+        <h2 class="article-title">Challenge #1hari1topik</h2>
+        <p class="article-snippet">Bahas apa ya hari ini? Klik "Baca" buat tahu apa aja topik random yang ada di otak ini setiap hari nya.</p>
+        <button class="btn btn-read-more"  onclick="location.href='article-2/index.html'">Baca</button>
       </article>
-
+<!-- 
       <article class="article-card">
         <img src="../assets/article3.jpg" alt="Article 3 Image">
-        <h2 class="article-title">Diet ko makanannya gaenak?</h2>
+        <h2 class="article-title">Diet ko makanannya gaenak?<p>&#128549;</p></h2>
         <p class="article-snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi dignissimos cumque non odio quia at.</p>
         <button class="btn btn-read-more"  onclick="location.href=href=''">Read More</button>
       </article>
@@ -95,7 +94,7 @@
         <button class="btn btn-read-more">Read More</button>
       </article>
       </div></section>
-      <button id="btn-show-more" class="btn">More</button>
+      <button id="btn-show-more" class="btn">More</button> -->
   <footer>
     <nav>
       <div class="nav-links-container">

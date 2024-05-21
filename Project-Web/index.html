@@ -6,66 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../mediaqueries.css" />
-    <link
-            rel="icon"
-            href=
-"./assets/arrow.png"
-            type="image/x-icon"
-        />
-</head>
-<body>
-  <nav id="desktop-nav">
-    <div class="logo"><b><b>Ashri Aulia Azzahra</b></b></div>
-    
-    <div>
-      <ul class="nav-links">
-        <li><a href="../index.html">HomePage</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="../Project1-article/index.html">Blog</a></li>
-        <li><a href="../index.html#contact">Contact</a></li>
-      </ul><br/>
-      <div id="current-time" class="time"></div>
-    </div>
-    <div id="current-time"></div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Ashri Aulia Azzahra</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+    <link rel="stylesheet" href="../../mediaqueries.css" />
+    <link rel="icon" href="./assets/arrow.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><b><a href="../index.html">Ashri Aulia Azzahra</a></b></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="../Project1-article/index.html">Blog</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <br />
+        <div id="current-time" ></div>
       </div>
-      <div class="menu-links">
-        <li><a href="../index.html" onclick="toggleMenu()">HomePage</a></li>
-        <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="../Project1-article/index.html" onclick="toggleMenu()">Blog</a></li>
-        <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
-       
-        
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="../index.html">Ashri Aulia Azzahra</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="" onclick="toggleMenu()">Project</a></li>
+          <li><a href="../Project1-article/index.html" onclick="toggleMenu()">Blog</a></li>
+          <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
-  </nav>
-  <section id="project-web-rps">
+    </nav>
     <h3 class="title">Mini Project</h3><br>
-  
-    <!-- <p >This page is just for fun. Atleast you got a new thing.</p> -->
-
-    <div class="projects-container">
-      <article class="project-card">
-        <img src="./assets/mini-project-1.png" alt="Mini Project 1">
-        <h2 class="project-title">Game Suit</h2>
-        <p class="project-snippet">Gunting, Batu, Kertas, suit... Akankah kamu mengalahkan sang komputer dalam permainan suit??</p>
-        <button class="btn btn-read-more" onclick="location.href='project-web-rps/index.html'">Play</button>
-     
-   
-  </section> 
-  <footer>
-    <br/><br/> <br/><br/>
-    <p>"You are never too old to set another goal or to dream a new dream." - C.S. Lewis</p><br/>
-    <p>Copyright &#169; 2024 Ashri Aulia Azzahra. All Rights Reserved.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    <section id="project-web-rps">
+      
+      <div class="projects-container">
+        <article class="project-card">
+          <img src="./assets/mini-project-1.png" alt="Mini Project 1">
+          <h2 class="project-title">Game Suit</h2>
+          <p class="project-snippet">Gunting, Batu, Kertas, suit... Akankah kamu mengalahkan sang komputer dalam permainan suit??</p>
+          <button class="btn btn-read-more" onclick="location.href='project-web-rps/index.html'">Play</button>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <br/><br/> <br/><br/>
+      <p>"You are never too old to set another goal or to dream a new dream." - C.S. Lewis</p><br/>
+      <p>Copyright &#169; 2024 Ashri Aulia Azzahra. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

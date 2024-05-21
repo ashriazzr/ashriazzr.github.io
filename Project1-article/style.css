@@ -20,9 +20,7 @@ p {
   color: rgb(85, 85, 85);
 }
 
-.time{
-  font-size: 12px;
-}
+
 
 a,
 .btn {
@@ -71,15 +69,18 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
+
 
 #hamburger-nav {
   display: none; 
+
+
 }
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index: 1000;
 }
 
 .hamburger-icon {
@@ -168,7 +169,7 @@ section {
   display: flex;
 }
 
-/* SNEAK PEEK SECTION */
+
 
 #sneakpeek {
   display: flex;
@@ -343,7 +344,7 @@ article .icon {
 }
 
 section {
-  padding-top: 4vh;
+  padding-top: 1vh;
   height: 96vh;
   margin: 0 5rem;
   box-sizing: border-box;
@@ -389,6 +390,7 @@ section {
 }
 
 .title {
+  padding-top: 1rem;
   font-size: 2rem;
   text-align: center;
 }
