@@ -66,6 +66,7 @@ a:hover {
 .logo {
   font-size: 1rem;
   background-color: #79021c;
+  font-weight: bold;
  
   padding: 10px;
   border-radius: 15px;

@@ -426,11 +426,14 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  background-color: #e094a0;
+ 
+
 }
 
 footer p {
   text-align: center;
+
 }
 
 #food-and-drink {
@@ -453,3 +456,4 @@ footer p {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+
