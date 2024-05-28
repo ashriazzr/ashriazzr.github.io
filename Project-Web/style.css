@@ -159,12 +159,12 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
+.projects-container {
   display: flex;
 }
 
 
-#project-web-rps {
+#project-web {
   display: flex;
   flex-direction: column;
   align-items: center;
