@@ -36,3 +36,40 @@ html, body {
     font-size: 20px;
 }
 
+
+footer {
+    height: 10vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+
+.logo {
+    font-size: 1rem;
+    background-color: #79021c;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  nav {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+  
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f2e4d8;
+  }
+  
+
+  
