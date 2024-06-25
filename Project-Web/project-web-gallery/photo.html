@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo View</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="../../assets/arrow.png" type="image/x-icon"/>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffebf1;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="" id="fullImage" alt="Full Image">
+    
+    <script>
+        // Get the query parameter from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const pict = urlParams.get('pict');
+
+        // Set the image source
+        document.getElementById('fullImage').src = 'assets/' + pict;
+    </script>
+</body>
+</html>

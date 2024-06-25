@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f9fa; /* Light background for aesthetic look */
+}
+
+.navbar {
+  background-color: #ffc0cb; /* Pink background for navbar */
+  padding: 0.5rem 1rem; /* Standard padding for navbar */
+}
+
+.navbar .btn {
+  margin-left: 1rem; /* Margin for the back button */
+  padding: 0.375rem 0.75rem; /* Standard padding for button */
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.img-fluid {
+  border: 3px solid #ffc0cb; /* Border for images to match aesthetic theme */
+  transition: transform 0.2s; /* Smooth zoom effect */
+}
+
+.img-fluid:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
